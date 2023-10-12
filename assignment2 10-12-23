@@ -1,0 +1,21 @@
+studentno=int(input('enter studentno: '))
+studentname=input('enter student name: ')
+group=input('enter student group: ')
+s1=int(input('enter java marks: '))
+s2=int(input('enter os marks: '))
+s3=int(input('enter afm marks: '))
+total=s1+s2+s3
+avg=total/3
+print(avg)
+if avg>=90:
+    print('O-grade')
+elif avg>=80:
+    print('A-grade')
+elif avg>=70:
+    print('B-grade')
+elif avg>=60:
+    print('C-grade')
+elif avg>=50:
+    print('D-grade')
+else:
+    print('fail')
