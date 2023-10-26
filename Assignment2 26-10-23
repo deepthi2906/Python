@@ -1,0 +1,13 @@
+n=int(input("Enter the number:"))
+temp=n
+res=0
+ans=0
+while n!=0:
+    r=n%10
+    n=n//10
+    res=r*r*r
+    ans=res+ans
+if(temp==ans):
+ print(temp, "is Armstrong")
+else:
+    print(temp ,"is Not Armstrong")
